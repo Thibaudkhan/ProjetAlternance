@@ -1,0 +1,35 @@
+body
+{
+    perspective: 800px;
+}
+
+.annimation div
+{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    opacity: 0.5;
+    text-align: center;
+    transition: 2s;
+    backface-visibility: hidden; 
+}
+.devant
+{
+    z-index: 100;
+}
+.derriere
+{
+    z-index: 50;
+    transform: rotateY(-180deg); 
+}
+.devant:hover
+{
+    transform: rotateY(180deg); 
+}
+
+.devant:hover + .derriere
+{
+    transform: rotateY(0deg);  
+}
