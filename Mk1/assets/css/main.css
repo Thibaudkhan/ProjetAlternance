@@ -3997,13 +3997,12 @@
 /* Icon */
 
 	.icon {
-		height: 74px;
-		margin: 20px;
-		opacity: 0.9;
+		height: 54px;
+		margin: 10px;
+		opacity: 0.8;
 		transition-duration: 0.4s;
 	}
 		.icon:hover {
-			height: 78px;
 			opacity: 1;
 		}
 
