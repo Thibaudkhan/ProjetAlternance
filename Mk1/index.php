@@ -262,8 +262,10 @@
 											</div>
 											<div class="flip-box-back">
 												
-											<span><a href="./images/icon/pdf.png"><img src="./images/icon/pdf.png" class="icon2"></a></span>
-											<p>CV</p>
+											<span>
+												<a href="telechargement.php?page=cv.pdf"><img src="./images/icon/pdf.png" class="icon2"> </a>
+												<a href="./images/icon/pdf.png"></a></span>
+											<p><a href="telechargement.php?page=cv.pdf">CV</a></p>
 											</div>
 										</div>
 									</div>
