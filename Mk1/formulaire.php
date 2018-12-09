@@ -23,6 +23,8 @@ $res = mail($TO, $sujet ,$informations ,$head);
 
 if (true == $res) {
 Header("Location: confirm_form.html" );
-} 
-
+} /*
+else {
+Header("Location: err_form.html" );
+}*/
 ?>
