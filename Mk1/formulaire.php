@@ -1,5 +1,5 @@
 <?php
-$adresse = "antoine.lefebvre@web-design-dao.fr";
+$adresse = "thibaudr1999@hotmail.com";
 $site = "http://www.web-design-dao.fr/";
 
 
@@ -16,7 +16,6 @@ $sujet = "Message - Site Web";
 $informations = "
 Prenom et Nom : ".$_POST['nom']." \r\n
 Adresse mail : ".$_POST['mail']." \r\n
-Sujet : ".$_POST['sujet']." \r\n
 Message : ".$_POST['message']." \r\n
 ";
 
@@ -25,7 +24,5 @@ $res = mail($TO, $sujet ,$informations ,$head);
 if (true == $res) {
 Header("Location: confirm_form.html" );
 } 
-else {
-Header("Location: err_form.html" );
-}
+
 ?>

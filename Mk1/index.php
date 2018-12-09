@@ -314,16 +314,16 @@
 				<section id="four" class="wrapper style2 special fade">
 					<div class="container">
 						<h2>Pour nous contacter</h2>
-						<form method="post" action="#">	
+						<form method="post" action="formulaire.php">	
 							<div class="row uniform 50%">
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" id="name" value="" placeholder="Nom" />
+									<input type="text" name="nom" id="nom" value="" placeholder="Nom" />
 								</div>
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" id="name" value="" placeholder="Prénom" />
+									<input type="text" name="nom" id="nom" value="" placeholder="Prénom" />
 								</div>
 								<div class="12u$ 12u$(xsmall)">
-									<input type="email" name="email" id="email" value="" placeholder="Email" />
+									<input type="email" name="mail" id="mail" value="" placeholder="Email" />
 								</div>						
 								<div class="12u$">
 									<textarea name="message" id="message" placeholder="Entrer votre message" rows="6"></textarea>
