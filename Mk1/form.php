@@ -1,6 +1,5 @@
 <?php
-$adresse = "thibaudr1999@hotmail.com";
-$adresse = "antoine.lefebvre14@free.fr";
+$adresse = 'antoine.lefebvre14@free.fr, antoine.lefebvre@edu.itescia.fr, thibaud.roussel@edu.itescia.fr';
 $site = "http://www.web-design-dao.fr/";
 
 
@@ -12,7 +11,7 @@ $head .= "X-Mailer: PHP\n";
 $head .= "Return-Path: <".$adresse.">\n";
 $head .= "Content-Type: text/plain; charset=iso-8859-1\n";
 
-$sujet = "Message - Site Web";
+$sujet = "Message test - Site Web";
 
 $informations = "
 Nom : ".$_POST['name']." \r\n
@@ -25,8 +24,7 @@ $res = mail($TO, $sujet ,$informations ,$head);
 
 if (true == $res) {
 Header("Location: confirm_form.html" );
-} /*
-else {
+} else {
 Header("Location: err_form.html" );
-}*/
+}
 ?>
