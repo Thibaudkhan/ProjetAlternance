@@ -1,5 +1,8 @@
-<?php
-$adresse = 'antoine.lefebvre14@free.fr, antoine.lefebvre@edu.itescia.fr, thibaud.roussel@edu.itescia.fr';
+<?php regarder bcc  
+$adresse = 'antoine.lefebvre14@free.fr';
+$adresse = 'thibaud.roussel@edu.itescia.fr';
+$adresse = 'antoine.lefebvre@edu.itescia.fr';
+
 $site = "http://www.web-design-dao.fr/";
 
 
